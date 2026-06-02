@@ -20,7 +20,7 @@ logging.basicConfig(
 def home():
     logging.info("Home endpoint was accessed")
     return jsonify({
-        "message": "DevOps Automation Project is running perfectly now"
+        "message": "DevOps Automation Project is running perfectly now on server"
     }), 200
 
 @app.route("/health")
